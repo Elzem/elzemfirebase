@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>720852450103-shaeu905gtjk1uid959dpmb9ij0tt1v7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.720852450103-shaeu905gtjk1uid959dpmb9ij0tt1v7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCcsWHHMz5BeK-9rVULITXjdagP6kRXCYE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>720852450103</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.elzem.elzemfirebase</string>
+	<key>PROJECT_ID</key>
+	<string>elzemfirebase</string>
+	<key>STORAGE_BUCKET</key>
+	<string>elzemfirebase.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:720852450103:ios:416ae36ce8c7a754</string>
+	<key>DATABASE_URL</key>
+	<string>https://elzemfirebase.firebaseio.com</string>
+</dict>
+</plist>

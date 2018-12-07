@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		317E572A738899836A45FF62 /* Pods_elzemfirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5043CD298AD9E260A135BE /* Pods_elzemfirebase.framework */; };
 		4B57D17121BA840100D32B2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B57D17021BA840100D32B2D /* AppDelegate.swift */; };
 		4B57D17321BA840100D32B2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B57D17221BA840100D32B2D /* ViewController.swift */; };
 		4B57D17621BA840100D32B2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B57D17421BA840100D32B2D /* Main.storyboard */; };
 		4B57D17821BA840200D32B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B57D17721BA840200D32B2D /* Assets.xcassets */; };
 		4B57D17B21BA840200D32B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B57D17921BA840200D32B2D /* LaunchScreen.storyboard */; };
+		4B57D18321BA85F500D32B2D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B57D18221BA85F500D32B2D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D5043CD298AD9E260A135BE /* Pods_elzemfirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_elzemfirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B57D16D21BA840100D32B2D /* elzemfirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = elzemfirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B57D17021BA840100D32B2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B57D17221BA840100D32B2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		4B57D17721BA840200D32B2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B57D17A21BA840200D32B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B57D17C21BA840200D32B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B57D18221BA85F500D32B2D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		86E10687D0CD24D7CC9DBF67 /* Pods-elzemfirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elzemfirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-elzemfirebase/Pods-elzemfirebase.release.xcconfig"; sourceTree = "<group>"; };
+		B93DBD033FD25CC614523481 /* Pods-elzemfirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elzemfirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-elzemfirebase/Pods-elzemfirebase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				317E572A738899836A45FF62 /* Pods_elzemfirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B97E2A6AFC0ECE95C89D9ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D5043CD298AD9E260A135BE /* Pods_elzemfirebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4B57D16421BA840100D32B2D = {
 			isa = PBXGroup;
 			children = (
 				4B57D16F21BA840100D32B2D /* elzemfirebase */,
 				4B57D16E21BA840100D32B2D /* Products */,
+				593FDA5197665139803FEA54 /* Pods */,
+				3B97E2A6AFC0ECE95C89D9ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,9 +76,19 @@
 				4B57D17421BA840100D32B2D /* Main.storyboard */,
 				4B57D17721BA840200D32B2D /* Assets.xcassets */,
 				4B57D17921BA840200D32B2D /* LaunchScreen.storyboard */,
+				4B57D18221BA85F500D32B2D /* GoogleService-Info.plist */,
 				4B57D17C21BA840200D32B2D /* Info.plist */,
 			);
 			path = elzemfirebase;
+			sourceTree = "<group>";
+		};
+		593FDA5197665139803FEA54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B93DBD033FD25CC614523481 /* Pods-elzemfirebase.debug.xcconfig */,
+				86E10687D0CD24D7CC9DBF67 /* Pods-elzemfirebase.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B57D17F21BA840200D32B2D /* Build configuration list for PBXNativeTarget "elzemfirebase" */;
 			buildPhases = (
+				DAE54842BDC4C0B601ACA824 /* [CP] Check Pods Manifest.lock */,
 				4B57D16921BA840100D32B2D /* Sources */,
 				4B57D16A21BA840100D32B2D /* Frameworks */,
 				4B57D16B21BA840100D32B2D /* Resources */,
+				E5AC57A58F557F4493A26169 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,12 +152,66 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B57D17B21BA840200D32B2D /* LaunchScreen.storyboard in Resources */,
+				4B57D18321BA85F500D32B2D /* GoogleService-Info.plist in Resources */,
 				4B57D17821BA840200D32B2D /* Assets.xcassets in Resources */,
 				4B57D17621BA840100D32B2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DAE54842BDC4C0B601ACA824 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-elzemfirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5AC57A58F557F4493A26169 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-elzemfirebase/Pods-elzemfirebase-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-elzemfirebase/Pods-elzemfirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4B57D16921BA840100D32B2D /* Sources */ = {
@@ -280,6 +363,7 @@
 		};
 		4B57D18021BA840200D32B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B93DBD033FD25CC614523481 /* Pods-elzemfirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +381,7 @@
 		};
 		4B57D18121BA840200D32B2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86E10687D0CD24D7CC9DBF67 /* Pods-elzemfirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
